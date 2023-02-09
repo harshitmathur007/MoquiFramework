@@ -1,0 +1,1 @@
+java -Xms2049M -Xmx4096M -Dmoqui.runtime=runtime -Dmoqui.conf=conf/MoquiDevConf.xml -Dfile.encoding=UTF-8 -DkeyStorePassword=changeit -classpath moqui.war MoquiStart -port=8090 -securePort=9443 -enableHttps=true  > runtime/log/console.log &
